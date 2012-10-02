@@ -1,4 +1,9 @@
-# Puppet divvy for Boxen
+# Divvy Puppet Module for Boxen
 
-FIXME: update me bro
+Requires the `boxen` puppet module.
 
+## Usage
+
+```puppet
+include divvy
+```
