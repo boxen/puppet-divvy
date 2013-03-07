@@ -8,4 +8,9 @@ class divvy {
     source   => 'http://mizage.com/downloads/Divvy.zip',
     provider => 'compressed_app'
   }
+
+  # Enable access for assistive devices:
+  file { '/private/var/db/.AccessibilityAPIEnabled':
+    ensure => file,
+  }
 }
