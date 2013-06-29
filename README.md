@@ -1,5 +1,7 @@
 # Divvy Puppet Module for Boxen
 
+[![Build Status](https://travis-ci.org/boxen/puppet-divvy.png?branch=master)](https://travis-ci.org/boxen/puppet-divvy)
+
 Install [Divvy](http://mizage.com/divvy), a window resizer for Mac OS X.
 
 ## Usage
